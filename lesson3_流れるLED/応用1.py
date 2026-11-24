@@ -4,12 +4,7 @@ import RPi.GPIO as GPIO
 import time
 
 # ピン番号(GPIO x)のリストの宣言
-# SPIMOSI = 10
-# SPIMISO = 9
-# SPISCLK = 11
-# EEDATA = 0
-LED_PINS = [17, 27, 22, 10, 9, 11, 0, 5]
-
+LED_PINS = [4, 17, 27, 22, 5, 6, 13, 19]
 # ボタンのピン番号
 BTN_PIN = 26
 # LEDの発光する間隔
