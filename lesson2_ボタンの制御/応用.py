@@ -3,8 +3,8 @@
 import RPi.GPIO as GPIO
 import time
 
-LED_PIN = 17  # GPIO17
-BUTTON_PIN = 18  # GPIO18
+LED_PIN = 5  # GPIO5
+BUTTON_PIN = 17  # GPIO17
 
 
 def setup():

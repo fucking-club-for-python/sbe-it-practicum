@@ -2,8 +2,8 @@
 
 import RPi.GPIO as GPIO
 
-LED_PIN = 17  # LEDをGPIO17に
-BUTTON_PIN = 18  # ボタンをGPIO18に
+LED_PIN = 5  # LEDをGPIO5に
+BUTTON_PIN = 17  # ボタンをGPIO17に
 
 
 def setup():

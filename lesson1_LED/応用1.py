@@ -3,9 +3,9 @@
 import time
 import RPi.GPIO as GPIO
 
-# GPIO17, GPIO13, GPIO26にLEDの+を接続
-# 「応用1, 2回路図.jpg」を参照してください
-LED_PINS = [17, 13, 26]
+# GPIO17, GPIO22, GPIO5にLEDの+を接続
+# 「応用_回路図.png」を参照してください
+LED_PINS = [17, 22, 5]
 
 
 def setup():
